@@ -1,0 +1,53 @@
+Sieve method: método eficiente para obtener todos los números primos inferiores a n.
+
+
+### Some links
+https://primes.utm.edu/curios/includes/primetest.php
+https://www.alpertron.com.ar/ECM.HTM
+https://www.britannica.com/science/integral-transform
+https://en.wikipedia.org/wiki/Prime_number_theorem
+https://es.wikipedia.org/wiki/Funci%C3%B3n_zeta_de_Riemann
+
+### Prime counting function: pi(N)
+- The number of primes less than or equal to N
+
+### Prime number theorem (PNT)
+- pi(N) ~ N/log(N)
+
+### 3blue1brown
+-
+
+### Función zeta de Riemman: previos
+- 1+1/2+1/4+... -->  Serie divergente
+- 1+(1/2)²+(1/3)²+(1/4)²+...  -->  Converge a pi²/6 (Este es el problema de Basilea, resuelto por Euler)
+- Definimos funciones del tipo S(n) = 1 + (1/2)^n + (1/3)^n + (1/4)^n + ...  con n real.
+- La función S(r) es convergente para r>1
+- La función S(s) es lo mismo que S(n), pero considerando s perteneciente a los complejos. Esta función converge cuando la parte real
+de s es s>1
+* Extensión analítica: para poder evitarnos los infinitos, redefinimos la función S(s) tal que no se haga infinito en s<1.
+- Cesàro: tomar las medias de las sumas parciales y construir una sucesión a partir de ellas, si esta tiene un límite (que los términos
+tienden a un número), la llamaremos la suma de Cesàro de la serie orginal. Este proceso puede aplicarse recursivamente hasta obtener
+una sucesión cuyo término tiende a un número real
+- La función zeta de Riemman Z(s), es la extensión analítica a todos los complejos de la función S(s), la cual está definida para los
+complejos cuya parte real es mayor que 1
+** Z(1) -> infinito   ;   Z(-1) = -1/12, pero S(-1)=1+2+3+4+... no existe, ya que S(s) está definida para s>1
+- Función Eta de Dirichlet: extensión anlítica de H(s)=1 - (1/2)^s + (1/3)^s - (1/4)^s
+- Las funciones zeta y eta están realcionadas por una ecuación sencilla: Z(s)=E(s)/(1-2/2^s)
+*Analytic continuation = Extensión analítica
+
+
+- Función logaritmo integral: usada para aproximar a pi(x). Esta es una muy buena aproxomación
+- Conexión entre la la hipótesis de Riemman y la función pi(x)
+- Función de moebious
+
+
+
+############ Mertens Conjecture
+- definimos la función mu(n) la cual devuelve 1, -1 o 0 dependiendo de la cantidad de factores primos que tenga n.
+
+
+
+
+
+
+
